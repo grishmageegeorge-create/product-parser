@@ -1,0 +1,116 @@
+{
+  "function_calling": [
+    {
+      "id": 1,
+      "description": "Messy text with Indian currency symbol",
+      "input": "Nike Air Max 90 – great for running, just ₹4,500 only!",
+      "approach": "function_calling",
+      "output": {
+        "name": "Nike Air Max 90",
+        "price": 4500.0,
+        "category": "Footwear"
+      }
+    },
+    {
+      "id": 2,
+      "description": "Pipe-separated with USD price",
+      "input": "Sony WH-1000XM5 | Wireless Headphones | Electronics | $349.99",
+      "approach": "function_calling",
+      "output": {
+        "name": "Sony WH-1000XM5",
+        "price": 349.99,
+        "category": "Electronics"
+      }
+    },
+    {
+      "id": 3,
+      "description": "Approximate price in rupees, informal language",
+      "input": "Handmade brown leather wallet, costs approx 850 rupees, accessories",
+      "approach": "function_calling",
+      "output": {
+        "name": "Handmade brown leather wallet",
+        "price": 850.0,
+        "category": "Accessories"
+      }
+    },
+    {
+      "id": 4,
+      "description": "Missing price field",
+      "input": "Organic green tea powder — no price listed, health & wellness",
+      "approach": "function_calling",
+      "output": {
+        "name": "Organic green tea powder",
+        "price": null,
+        "category": "Health & Wellness"
+      }
+    },
+    {
+      "id": 5,
+      "description": "Indian number format with specs in text",
+      "input": "ASUS ROG Strix laptop, gaming, 16GB RAM, priced at 1,20,000 INR",
+      "approach": "function_calling",
+      "output": {
+        "name": "ASUS ROG Strix laptop",
+        "price": 120000.0,
+        "category": "Gaming"
+      }
+    }
+  ],
+  "json_mode": [
+    {
+      "id": 1,
+      "description": "Messy text with Indian currency symbol",
+      "input": "Nike Air Max 90 – great for running, just ₹4,500 only!",
+      "approach": "json_mode",
+      "output": {
+        "name": "Nike Air Max 90",
+        "price": 4500.0,
+        "category": "running shoes"
+      }
+    },
+    {
+      "id": 2,
+      "description": "Pipe-separated with USD price",
+      "input": "Sony WH-1000XM5 | Wireless Headphones | Electronics | $349.99",
+      "approach": "json_mode",
+      "output": {
+        "name": "Sony WH-1000XM5",
+        "price": 349.99,
+        "category": "Electronics"
+      }
+    },
+    {
+      "id": 3,
+      "description": "Approximate price in rupees, informal language",
+      "input": "Handmade brown leather wallet, costs approx 850 rupees, accessories",
+      "approach": "json_mode",
+      "output": {
+        "name": "Handmade brown leather wallet",
+        "price": 850.0,
+        "category": "accessories"
+      }
+    },
+    {
+      "id": 4,
+      "description": "Missing price field",
+      "input": "Organic green tea powder — no price listed, health & wellness",
+      "approach": "json_mode",
+      "output": {
+        "name": "Organic green tea powder",
+        "price": null,
+        "category": "health & wellness"
+      }
+    },
+    {
+      "id": 5,
+      "description": "Indian number format with specs in text",
+      "input": "ASUS ROG Strix laptop, gaming, 16GB RAM, priced at 1,20,000 INR",
+      "approach": "json_mode",
+      "output": {
+        "name": "ASUS ROG Strix laptop",
+        "price": 120000.0,
+        "category": "gaming"
+      }
+    }
+  ]
+}
