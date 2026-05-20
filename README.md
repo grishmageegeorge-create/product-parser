@@ -86,6 +86,11 @@ product-parser/
 
 ## Design Decisions
 
+### Model Choice
+Used `gpt-4.1-mini` as it offers a strong balance between accuracy, speed, 
+and cost — making it well suited for production extraction pipelines compared 
+to older models.
+
 ### Approach 1: Function Calling (Primary)
 
 The model is given a strict tool schema and forced to call it via `tool_choice`. This means field names and types are enforced at the API level. Price is typed as `number | null` so the model cannot return a string like "not listed".
