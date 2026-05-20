@@ -17,7 +17,7 @@
       "input": "Sony WH-1000XM5 | Wireless Headphones | Electronics | $349.99",
       "approach": "function_calling",
       "output": {
-        "name": "Sony WH-1000XM5",
+        "name": "Sony WH-1000XM5 Wireless Headphones",
         "price": 349.99,
         "category": "Electronics"
       }
@@ -30,7 +30,7 @@
       "output": {
         "name": "Handmade brown leather wallet",
         "price": 850.0,
-        "category": "Accessories"
+        "category": "accessories"
       }
     },
     {
@@ -41,7 +41,7 @@
       "output": {
         "name": "Organic green tea powder",
         "price": null,
-        "category": "Health & Wellness"
+        "category": "health & wellness"
       }
     },
     {
@@ -50,9 +50,9 @@
       "input": "ASUS ROG Strix laptop, gaming, 16GB RAM, priced at 1,20,000 INR",
       "approach": "function_calling",
       "output": {
-        "name": "ASUS ROG Strix laptop",
+        "name": "ASUS ROG Strix laptop, gaming, 16GB RAM",
         "price": 120000.0,
-        "category": "Gaming"
+        "category": "Electronics"
       }
     }
   ],
@@ -65,7 +65,7 @@
       "output": {
         "name": "Nike Air Max 90",
         "price": 4500.0,
-        "category": "running shoes"
+        "category": "running"
       }
     },
     {

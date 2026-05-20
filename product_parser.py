@@ -22,7 +22,7 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
 
-MODEL = "gpt-3.5-turbo"
+MODEL = "gpt-4.1-mini"
 MAX_RETRIES = 3
 BACKOFF_BASE = 2
 
